@@ -1,0 +1,55 @@
+과제
+
+
+
+복습 (9/4 수요일 수업)
+
+
+< git으로 관리 >
+
+1. git init 으로 git으로 관리하겠다고 넣기
+
+2. ls -al 로 확인. 숨겨진 파일(목록) 보기
+   rm -rf .git 으로 .git 폴더 삭제
+
+3. git config user.name "example"
+              user.email you@example.com
+              본인 계정 정보 등록
+
+4. git config list 로 확인
+
+5. git status 로 현 상태 확인
+
+6. git add . 관리하는 내용을 무대 위에 올리는 것
+
+6. git status 로 새 파일 제대로 들어왔는지 확인
+
+7. git commit -m "example" 로 이름 부여
+
+8. git log 로 계정 정보, 이름 확인
+
+9. git log --graph
+   git log --graph --oneline 으로 commit id 확인 가능
+
+
+
+< github과 연결 >
+
+1. git remote
+   git remote -v 로 remote 되어있는 거 있는지 정보 확인
+
+2. github 사이트에서 new repository 추가
+
+3. git remote add origin https://github.com/bokyung00/first-assignment.git 와
+   git push -u origin main 를 복붙해서 추가
+
+4. github 사이트에서 잘 연결되었는지 확인
+
+
+
+< push & pull >
+
+* working tree clean 상태에서 하기 *
+
+vb -> github 데이터 업데이트 : push
+github -> vb 데이터 업데이트 : pull
